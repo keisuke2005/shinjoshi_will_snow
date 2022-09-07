@@ -1,0 +1,2 @@
+# shinjoshi_will_snow
+山形県新庄市の翌日の降雪予想アプリ
