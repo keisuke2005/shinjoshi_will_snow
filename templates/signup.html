@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<!-- Required meta tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<title>サインアップ</title>
+	</head>
+  	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<form class="border offset-1 col-10 offset-md-4 col-md-4 rounded bg-light mt-5" method="post">
+					<div class="row">
+						<div class="offset-2 col-8 text-center mt-3">サインアップ</div>
+					</div>
+					<!-- ユーザー名入力ボックス -->
+					<div class="row">
+						<div class="offset-2 col-8 text-center mt-3">
+							<input id="username" type="id" class="form-control mb-0" name="username" placeholder="ユーザー名">
+						</div>
+					</div>
+					<!-- パスワード1入力ボックス -->
+					<div class="row">
+						<div class="offset-2 col-8 text-center">
+							<input id="password1" type="password" class="form-control mt-0" name="password1" placeholder="パスワード1">
+						</div>
+					</div>
+					<!-- パスワード2入力ボックス -->
+					<div class="row">
+						<div class="offset-2 col-8 text-center">
+							<input id="password2" type="password" class="form-control mt-0" name="password2" placeholder="パスワード2">
+						</div>
+					</div>					
+					<!-- サインアップボタン -->
+					<div class="row">
+						<div class="offset-2 col-8 text-center">
+							<button id="send-signup" class="btn btn-primary btn-sm mt-2 mb-3" type="submit">サインアップ</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+  	</body>
+</html>
